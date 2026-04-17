@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Combo com 8 Luvas de Histórias Bíblicas</title>
+  <meta name="description" content="Ensine valores cristãos de forma divertida com histórias bíblicas interativas prontas para imprimir." />
+  <meta property="og:title" content="Histórias Bíblicas na Luva" />
+  <meta property="og:description" content="Ensine valores cristãos de forma divertida com histórias bíblicas interativas prontas para imprimir." />
+  <meta property="og:image" content="https://i.postimg.cc/nzvDjVKy/1.png" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#6f4bd8" />
+
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '861117286192087');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent', {
+      content_name: 'Combo Histórias Bíblicas na Luva',
+      content_category: 'Produto Digital',
+      value: 24.99,
+      currency: 'BRL'
+    });
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=861117286192087&ev=PageView&noscript=1" />
+  </noscript>
+
+  <style>
+    :root {
+      --purple: #6f4bd8;
+      --purple-dark: #5638ad;
+      --yellow: #f6c94c;
+      --yellow-dark: #e5b52f;
+      --bg: #fffaf1;
+      --text: #2c2340;
+      --muted: #6b6480;
+      --card: #ffffff;
+      --line: #eee6ff;
+      --success: #3b9a5f;
+      --shadow: 0 12px 30px rgba(63, 34, 122, 0.12);
+      --radius: 22px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #fffaf1 0%, #fff 40%, #fffaf7 100%);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(100% - 32px, var(--max));
+      margin: 0 auto;
+    }
+
+    .section { padding: 56px 0; }
+    .section-tight { padding: 34px 0; }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #f0e9ff;
+      color: var(--purple-dark);
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1.07;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: clamp(26px, 4vw, 40px);
+      line-height: 1.12;
+      margin-bottom: 14px;
+    }
+    h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .lead {
+      font-size: clamp(17px, 2.5vw, 21px);
+      color: var(--muted);
+      max-width: 720px;
+    }
+    .text-center { text-align: center; }
+    .muted { color: var(--muted); }
+
+    .hero {
+      padding: 36px 0 26px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 28px;
+      align-items: center;
+    }
+    .hero-card {
+      background: radial-gradient(circle at top right, #fff5ce 0%, #fff 55%), var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+    .hero-visual {
+      background: linear-gradient(180deg, #f4ecff 0%, #fffef7 100%);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-top: 26px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 56px;
+      padding: 16px 24px;
+      border-radius: 16px;
+      font-weight: 800;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+      box-shadow: 0 10px 24px rgba(246, 201, 76, 0.35);
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--yellow);
+      color: #3a2b00;
+    }
+    .btn-primary:hover { background: var(--yellow-dark); }
+    .btn-secondary {
+      background: white;
+      border: 1px solid var(--line);
+      box-shadow: none;
+      color: var(--purple-dark);
+    }
+    .microcopy {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .proof-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 22px;
+    }
+    .proof-item {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--purple-dark);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .video-wrap {
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+      background: #000;
+      max-width: 780px;
+      margin: 22px auto 0;
+      aspect-ratio: 9 / 16;
+    }
+    .video-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .carousel-shell {
+      margin-top: 22px;
+      position: relative;
+    }
+    .carousel {
+      display: grid;
+      grid-template-columns: 52px 1fr 52px;
+      gap: 12px;
+      align-items: center;
+    }
+    .carousel-btn {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--purple-dark);
+      font-size: 26px;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+    }
+    .slide {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+    .slide img {
+      border-radius: 18px;
+      width: 100%;
+      object-fit: cover;
+      max-height: 560px;
+      margin: 0 auto;
+    }
+    .slide-caption {
+      text-align: center;
+      font-size: 16px;
+      color: var(--text);
+      font-weight: 700;
+      margin-top: 12px;
+      min-height: 48px;
+    }
+    .dots {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: none;
+      background: #d5c9ff;
+      cursor: pointer;
+    }
+    .dot.active { background: var(--purple); }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .list {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .list-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 16px;
+    }
+    .check {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #e9fff0;
+      color: var(--success);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      flex: 0 0 24px;
+      margin-top: 1px;
+    }
+
+    .benefit-box, .bonus-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .offer {
+      background: linear-gradient(180deg, #fff 0%, #faf5ff 100%);
+      border: 2px solid #eadfff;
+      border-radius: 28px;
+      padding: 30px 24px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .price-old {
+      color: var(--muted);
+      text-decoration: line-through;
+      font-size: 21px;
+      margin-top: 10px;
+    }
+    .price-new {
+      font-size: clamp(42px, 7vw, 70px);
+      font-weight: 900;
+      color: var(--purple-dark);
+      line-height: 1;
+      margin: 10px 0;
+    }
+    .price-note {
+      color: var(--text);
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    .offer-mini {
+      display: inline-block;
+      background: #fff7d7;
+      color: #7a5600;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .guarantee {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #f3fff6;
+      color: #17643a;
+      border: 1px solid #d6f3e0;
+      border-radius: 999px;
+      padding: 12px 18px;
+      font-weight: 800;
+    }
+
+    .final-cta {
+      background: linear-gradient(180deg, #6f4bd8 0%, #4c3298 100%);
+      color: #fff;
+      border-radius: 28px;
+      padding: 34px 24px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .final-cta .microcopy { color: rgba(255,255,255,.8); }
+
+    footer {
+      padding: 28px 0 60px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 920px) {
+      .hero-grid,
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .proof-strip {
+        grid-template-columns: 1fr;
+      }
+      .carousel {
+        grid-template-columns: 40px 1fr 40px;
+      }
+      .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+      }
+      .section { padding: 42px 0; }
+      .hero { padding-top: 18px; }
+      .btn {
+        width: 100%;
+      }
+      .cta-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <span class="badge">Mais de 300 alunos já impactados</span>
+        <h1>Transforme crianças desatentas em alunos envolvidos com histórias bíblicas interativas e prontas para usar</h1>
+        <p class="lead">Mesmo sem tempo para planejar, você pode ensinar valores cristãos de forma leve, visual e marcante.</p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero minhas aulas prontas agora</a>
+          <a class="btn btn-secondary" href="#video">Ver demonstração</a>
+        </div>
+        <div class="microcopy">Acesso imediato após a compra • Pagamento 100% seguro</div>
+
+        <div class="proof-strip">
+          <div class="proof-item">8 histórias prontas</div>
+          <div class="proof-item">Atividades inclusas</div>
+          <div class="proof-item">Use em casa, igreja ou escola</div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="https://i.postimg.cc/nzvDjVKy/1.png" alt="Luva bíblica pronta para uso" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="video" class="section-tight">
+      <div class="container text-center">
+        <span class="badge">Demonstração</span>
+        <h2>Veja como suas aulas podem prender a atenção das crianças</h2>
+        <p class="lead" style="margin:0 auto;">Percebe como as crianças se envolvem muito mais quando podem ver e participar?</p>
+
+        <div class="video-wrap">
+          <iframe
+            src="https://drive.google.com/file/d/16ZNT0IEAzr63lh-1BmdjfB36VcBmZoY8/preview"
+            allow="autoplay"
+            title="Vídeo de demonstração das histórias bíblicas na luva">
+          </iframe>
+        </div>
+
+        <div class="cta-row" style="justify-content:center; margin-top:22px;">
+          <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero minhas aulas prontas agora</a>
+        </div>
+        <div class="microcopy">Acesso imediato após a compra</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container text-center">
+        <span class="badge">Carrossel</span>
+        <h2>Veja exatamente o que você vai receber</h2>
+        <p class="lead" style="margin:0 auto;">Arraste para o lado e veja tudo que você vai receber 👇</p>
+
+        <div class="carousel-shell">
+          <div class="carousel">
+            <button class="carousel-btn" id="prevBtn" aria-label="Imagem anterior">‹</button>
+            <div class="slide">
+              <img id="slideImage" src="https://i.postimg.cc/nzvDjVKy/1.png" alt="Imagem do produto" />
+              <div class="slide-caption" id="slideCaption">Histórias bíblicas que prendem a atenção das crianças desde o início</div>
+            </div>
+            <button class="carousel-btn" id="nextBtn" aria-label="Próxima imagem">›</button>
+          </div>
+          <div class="dots" id="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="card">
+          <span class="badge">Se você sente que...</span>
+          <h2>Está difícil prender a atenção das crianças nas aulas bíblicas</h2>
+          <div class="list">
+            <div class="list-item"><span class="check">✓</span><div>As crianças perdem o interesse rápido.</div></div>
+            <div class="list-item"><span class="check">✓</span><div>É difícil prender a atenção durante a aula.</div></div>
+            <div class="list-item"><span class="check">✓</span><div>Falta tempo para preparar atividades criativas.</div></div>
+            <div class="list-item"><span class="check">✓</span><div>Você quer ensinar a Bíblia de forma mais envolvente.</div></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="badge">A solução</span>
+          <h2>Um material pronto que facilita sua aula e encanta as crianças</h2>
+          <p class="lead" style="font-size:18px; max-width:none;">Com o Combo de Histórias Bíblicas na Luva, você recebe materiais prontos que tornam suas aulas mais envolventes, visuais e fáceis de aplicar.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero minhas aulas prontas agora</a>
+          </div>
+          <div class="microcopy">Acesso imediato após a compra</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="badge">O que você recebe</span>
+          <h2>Um combo completo pronto para imprimir e usar</h2>
+        </div>
+
+        <div class="grid-2" style="margin-top:22px;">
+          <div class="list-item"><span class="check">✓</span><div><strong>8 histórias bíblicas na luva</strong></div></div>
+          <div class="list-item"><span class="check">✓</span><div>Atividades complementares</div></div>
+          <div class="list-item"><span class="check">✓</span><div>Arquivos prontos para imprimir</div></div>
+          <div class="list-item"><span class="check">✓</span><div>Materiais fáceis de aplicar</div></div>
+          <div class="list-item"><span class="check">✓</span><div>Uso em casa, igreja ou escola</div></div>
+          <div class="list-item"><span class="check">✓</span><div>Acesso imediato e vitalício</div></div>
+        </div>
+
+        <div class="cta-row" style="justify-content:center; margin-top:26px;">
+          <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero minhas aulas prontas agora</a>
+        </div>
+        <div class="microcopy text-center">Acesso imediato após a compra</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="badge">Benefícios</span>
+          <h2>O que muda quando você usa esse material</h2>
+        </div>
+        <div class="grid-2" style="margin-top:22px;">
+          <div class="benefit-box"><h3>Crianças mais atentas</h3><p class="muted">As aulas ficam mais visuais, participativas e fáceis de acompanhar.</p></div>
+          <div class="benefit-box"><h3>Aulas mais leves e organizadas</h3><p class="muted">Você ganha praticidade sem precisar criar tudo do zero.</p></div>
+          <div class="benefit-box"><h3>Menos tempo de preparo</h3><p class="muted">Basta imprimir e aplicar com muito mais segurança.</p></div>
+          <div class="benefit-box"><h3>Ensino mais marcante</h3><p class="muted">Os valores cristãos são ensinados de forma prática, visual e memorável.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="badge">Bônus</span>
+          <h2>Além do combo, você ainda recebe materiais extras</h2>
+        </div>
+        <div class="grid-3" style="margin-top:22px;">
+          <div class="bonus-box"><h3>Planos de aula</h3><p class="muted">Mais praticidade para aplicar as histórias com segurança.</p></div>
+          <div class="bonus-box"><h3>Caderno de colorir</h3><p class="muted">Um reforço visual e divertido para fixar o aprendizado.</p></div>
+          <div class="bonus-box"><h3>Materiais extras</h3><p class="muted">Recursos complementares para enriquecer ainda mais suas aulas.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="offer">
+          <div class="offer-mini">Oferta especial por tempo limitado</div>
+          <h2>Leve o combo completo com um valor promocional</h2>
+          <div class="price-old">De R$79,90</div>
+          <div class="price-new">R$24,99</div>
+          <div class="price-note">Menos de R$3 por história completa</div>
+          <div class="price-note">Acesso imediato e vitalício <strong>(pague uma vez e use para sempre)</strong></div>
+
+          <div class="cta-row" style="justify-content:center;">
+            <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero aproveitar agora</a>
+          </div>
+          <div class="microcopy">Acesso imediato após a compra • Pagamento 100% seguro</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container text-center">
+        <div class="guarantee">✓ Garantia de 7 dias – risco zero</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="final-cta">
+          <h2>Ensine valores que ficarão para a vida toda de forma simples, visual e envolvente</h2>
+          <p class="lead" style="margin:14px auto 0; color:rgba(255,255,255,.9); max-width:760px;">Use um material que já encantou centenas de alunos e torne suas aulas muito mais marcantes.</p>
+          <div class="cta-row" style="justify-content:center; margin-top:24px;">
+            <a class="btn btn-primary js-checkout" href="https://pay.kiwify.com.br/2cJZlCu">Quero minhas aulas prontas agora</a>
+          </div>
+          <div class="microcopy">Acesso imediato após a compra</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Histórias Bíblicas na Luva. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script>
+    const slides = [
+      { image: 'https://i.postimg.cc/nzvDjVKy/1.png', caption: 'Histórias bíblicas que prendem a atenção das crianças desde o início' },
+      { image: 'https://i.postimg.cc/Bb41xWMG/101.png', caption: 'Cada detalhe foi pensado para facilitar sua aula e encantar os pequenos' },
+      { image: 'https://i.postimg.cc/V6jCrs93/4.png', caption: 'Muito mais que contar histórias: aqui as crianças participam ativamente' },
+      { image: 'https://i.postimg.cc/kGqtxrfC/111.png', caption: 'Atividades prontas para reforçar o aprendizado de forma divertida' },
+      { image: 'https://i.postimg.cc/vTb6WRXN/5.png', caption: 'Ideal para quem não tem tempo, mas quer aulas envolventes' },
+      { image: 'https://i.postimg.cc/6qtGdsYw/112.png', caption: 'Ensine valores cristãos de forma leve, visual e inesquecível' },
+      { image: 'https://i.postimg.cc/FzNJjtGn/6.png', caption: 'As crianças entendem melhor quando conseguem ver e interagir' },
+      { image: 'https://i.postimg.cc/VvmbjyDQ/80.png', caption: 'Perfeito para aulas em igrejas, escolas ou em casa' },
+      { image: 'https://i.postimg.cc/Gtdsk0zW/7.png', caption: 'Você recebe um combo completo pronto para imprimir e usar' },
+      { image: 'https://i.postimg.cc/prRnDNq2/113.png', caption: 'Mais organização, menos esforço e muito mais resultado nas aulas' },
+      { image: 'https://i.postimg.cc/nzvDjVK5/3.png', caption: 'Transforme suas aulas bíblicas em momentos inesquecíveis' },
+      { image: 'https://i.postimg.cc/8cNrh8tT/114.png', caption: 'Tudo pronto para você aplicar imediatamente com as crianças' },
+      { image: 'https://i.postimg.cc/TwrDL2jB/2.png', caption: 'Ensinar nunca foi tão fácil, prático e envolvente' },
+      { image: 'https://i.postimg.cc/8cNrh8tS/90.png', caption: 'Um material completo por um valor que cabe no seu bolso' }
+    ];
+
+    const slideImage = document.getElementById('slideImage');
+    const slideCaption = document.getElementById('slideCaption');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const dots = document.getElementById('dots');
+    let currentIndex = 0;
+
+    function renderDots() {
+      dots.innerHTML = '';
+      slides.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.className = 'dot' + (index === currentIndex ? ' active' : '');
+        dot.setAttribute('aria-label', 'Ir para slide ' + (index + 1));
+        dot.addEventListener('click', () => {
+          currentIndex = index;
+          updateSlide();
+        });
+        dots.appendChild(dot);
+      });
+    }
+
+    function updateSlide() {
+      const current = slides[currentIndex];
+      slideImage.src = current.image;
+      slideCaption.textContent = current.caption;
+      slideImage.alt = current.caption;
+      renderDots();
+    }
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlide();
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlide();
+    });
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const slideArea = document.querySelector('.slide');
+
+    slideArea.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    slideArea.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      if (touchEndX < touchStartX - 40) {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlide();
+      }
+      if (touchEndX > touchStartX + 40) {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateSlide();
+      }
+    }, { passive: true });
+
+    updateSlide();
+
+    document.querySelectorAll('.js-checkout').forEach((button) => {
+      button.addEventListener('click', function () {
+        if (typeof fbq !== 'undefined') {
+          fbq('track', 'InitiateCheckout');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
